@@ -1,0 +1,42 @@
+# Private onboarding sources and extracted inventories
+onboarding/source-documents/*
+onboarding/reviewed-sources/*
+onboarding/source-inventory.json
+
+# Private application packages and working files
+applications/*
+work/*
+
+# Local job-search state
+jobs/.discovery-transaction.json
+jobs/discovered/runs/
+jobs/rejected/*
+jobs/shortlisted/*
+
+# Rendered and uploaded career documents
+*.doc
+*.docx
+*.pdf
+*.rtf
+*.odt
+
+# Operating-system, editor, and Python caches
+.DS_Store
+Thumbs.db
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Credentials and local environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Note: the starter's blank profile, tracker, and JSON state files are committed
+# intentionally. If you clone or fork the public repository, keep your completed
+# workspace private and review every change before pushing. Downloading the Release
+# ZIP into a private local folder is the recommended setup for job seekers.

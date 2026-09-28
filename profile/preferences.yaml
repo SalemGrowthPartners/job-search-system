@@ -1,0 +1,35 @@
+schema_version: 1
+onboarding_status: not_started
+role_targeting:
+  primary_tracks: []
+  adjacent_stretch: []
+  excluded_tracks: []
+compensation:
+  minimum_base_salary: null
+  preferred_compensation: null
+  currency: null
+  notes: null
+work_arrangement:
+  remote: null
+  hybrid:
+    acceptable: null
+    geography: []
+  onsite:
+    acceptable: null
+    geography: []
+travel:
+  preference: null
+  maximum_domestic_trips_per_year: null
+management:
+  preferred_work_style: null
+  individual_contributor: null
+  people_management: null
+  team_size_preferences: null
+industry_preferences:
+  preferred: []
+  open_to: []
+  avoid: []
+hard_nos: []
+positive_fit_signals: []
+negative_fit_signals: []
+other_constraints: []

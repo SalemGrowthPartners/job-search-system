@@ -1,0 +1,24 @@
+schema_version: 1
+allocation_percent:
+  employer_watch: 40
+  ats_exploration: 25
+  specialist: 20
+  aggregator: 15
+rotating_sources_per_run: 3
+stretch_exploration_percent: 20
+review_display_limit: 10
+sources:
+  - {id: employer, name: Employer career pages, family: employer_watch, tier: core, access: browser, url: null, evaluation: Best authority; verify location and active headcount., reference_url: null, search_domains: []}
+  - {id: greenhouse, name: Greenhouse, family: ats_exploration, tier: core, access: public_api_or_browser, url: null, evaluation: Verify company-scoped posting and application route., reference_url: 'https://docs.greenhouse.io/job-board.html', search_domains: [job-boards.greenhouse.io, boards.greenhouse.io]}
+  - {id: ashby, name: Ashby, family: ats_exploration, tier: core, access: public_api_or_browser, url: null, evaluation: Verify company-scoped posting and geographic eligibility., reference_url: 'https://developers.ashbyhq.com/docs/public-job-posting-api', search_domains: [jobs.ashbyhq.com]}
+  - {id: lever, name: Lever, family: ats_exploration, tier: core, access: public_api_or_browser, url: null, evaluation: Preserve hosted and application URLs., reference_url: 'https://github.com/lever/postings-api', search_domains: [jobs.lever.co]}
+  - {id: workday, name: Workday, family: employer_watch, tier: core, access: browser, url: null, evaluation: Use the employer's actual tenant; do not infer a universal API., reference_url: null, search_domains: [myworkdayjobs.com]}
+  - {id: other_ats, name: Other employer ATS, family: employer_watch, tier: rotate, access: browser, url: null, evaluation: Log access blocks and verify with employer sources., reference_url: null, search_domains: []}
+  - {id: linkedin, name: LinkedIn Jobs, family: aggregator, tier: core, access: browser, url: 'https://www.linkedin.com/jobs/', evaluation: Use for discovery; verify every role with the employer., reference_url: null, search_domains: []}
+  - {id: indeed, name: Indeed, family: aggregator, tier: core, access: browser, url: 'https://www.indeed.com/jobs', evaluation: Use for discovery; resolve duplicates to employer sources., reference_url: null, search_domains: []}
+  - {id: builtin, name: Built In, family: specialist, tier: core, access: browser, url: 'https://builtin.com/jobs', evaluation: Verify location and employer posting., reference_url: null, search_domains: []}
+  - {id: wellfound, name: Wellfound, family: specialist, tier: core, access: browser, url: 'https://wellfound.com/jobs', evaluation: Startup coverage; inspect compensation and eligibility., reference_url: null, search_domains: []}
+  - {id: weworkremotely, name: We Work Remotely, family: specialist, tier: rotate, access: browser, url: 'https://weworkremotely.com/', evaluation: Global labels require country and region verification., reference_url: null, search_domains: []}
+  - {id: remotive, name: Remotive, family: specialist, tier: rotate, access: browser, url: 'https://remotive.com/remote-jobs', evaluation: Verify employer and current availability., reference_url: null, search_domains: []}
+  - {id: professional_board, name: User-selected professional board, family: specialist, tier: rotate, access: browser, url: null, evaluation: Add a relevant board during onboarding., reference_url: null, search_domains: []}
+  - {id: optional_paid_source, name: Optional paid source, family: specialist, tier: optional, access: browser, url: null, evaluation: Never subscribe or pay without explicit user approval., reference_url: null, search_domains: []}

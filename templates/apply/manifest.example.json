@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "job_id": "EXACT_TRACKER_JOB_ID",
+  "application_url": "https://example.com/employer/application",
+  "documents": [
+    {"kind": "resume", "path": "Candidate_Resume_Company.pdf", "sha256": "REPLACE_WITH_FILE_SHA256"}
+  ]
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "company": "Example Company",
+    "role": "Example Role",
+    "url": "https://example.com/listings/synthetic-123",
+    "reason": "SYNTHETIC EXAMPLE ONLY: verify employer",
+    "disposition": "pending",
+    "provenance": {
+      "version": 1,
+      "origin": {
+        "source_id": "builtin",
+        "url": "https://example.com/listings/synthetic-123",
+        "at": "2026-09-08T12:00:00Z",
+        "method": "board_search",
+        "query_id": "demand_generation:0",
+        "run_id": "synthetic-example"
+      },
+      "observations": [],
+      "availability": "unverified",
+      "date_basis": "unknown"
+    }
+  }
+]

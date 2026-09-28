@@ -1,0 +1,12 @@
+schema_version: 1
+bands:
+  - {max_age_days: 3, label: highest}
+  - {max_age_days: 7, label: high}
+  - {max_age_days: 14, label: normal}
+  - {max_age_days: 30, label: reduced}
+exceptional_fit_min: 90
+reverify_after_days: 30
+verification_max_age_days: 7
+evergreen_check_after_days: 60
+search_windows_days: [3, 7]
+undated_search_effort_percent: {standard: 20, broad: 40}

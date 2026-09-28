@@ -1,0 +1,43 @@
+schema_version: 1
+onboarding_status: not_started
+hard_filters:
+  minimum_known_base_salary: null
+  remote_allowed: null
+  hybrid_allowed_geography: []
+  maximum_domestic_trips_per_year: null
+  reject_major_organic_social_ownership: false
+qualification_score:
+  relevant_functional_experience: 30
+  demonstrated_skills: 25
+  comparable_scope: 15
+  industry_transferability: 10
+  tools_platforms: 10
+  demonstrated_results: 10
+career_fit_score:
+  work_content: 25
+  autonomy_player_coach_fit: 20
+  writing_marketing_intersection: 15
+  remote_location_fit: 15
+  compensation: 15
+  management_burden: 5
+  industry_interest: 5
+thresholds:
+  minimum_qualification: 70
+  minimum_career_fit: 70
+  priority_qualification: 85
+  priority_career_fit: 85
+  exceptional_qualification: 90
+  exceptional_career_fit: 90
+  stretch_candidate:
+    qualification_min: 65
+    qualification_max: 79
+    career_fit_min: 90
+confidence:
+  missing_information_lowers_confidence_not_fit: true
+  fields: [salary, work_arrangement, management_scope, travel, responsibilities, required_skills]
+gap_classes:
+  trivial: 0
+  transferable: 1
+  learnable: 2
+  substantive: 3
+  disqualifying: 4

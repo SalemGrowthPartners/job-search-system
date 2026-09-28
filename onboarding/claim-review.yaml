@@ -1,0 +1,9 @@
+schema_version: 1
+claims: []
+conflicts: []
+# Claim statuses:
+# proposed: extracted or inferred and awaiting review
+# resume_supported: stated in a source document but not personally reconfirmed
+# confirmed: explicitly confirmed by the user; record user_confirmation
+# disputed: conflicting or suspicious; must be resolved before finalization
+# rejected: reviewed and excluded from the authoritative profile

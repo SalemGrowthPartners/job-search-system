@@ -1,0 +1,51 @@
+[
+  {
+    "company": "ExampleCo",
+    "role": "Principal Demand Generation Strategist",
+    "salary_min": 165000,
+    "salary_max": 195000,
+    "mandatory_relocation": false,
+    "major_organic_social_ownership": false,
+    "domestic_trips_per_year": 2,
+    "qualification": {
+      "relevant_functional_experience": 0.95,
+      "demonstrated_skills": 0.9,
+      "comparable_scope": 0.9,
+      "industry_transferability": 0.8,
+      "tools_platforms": 0.85,
+      "demonstrated_results": 0.95
+    },
+    "career_fit": {
+      "work_content": 0.95,
+      "autonomy_player_coach_fit": 1.0,
+      "writing_marketing_intersection": 0.9,
+      "remote_location_fit": 1.0,
+      "compensation": 0.85,
+      "management_burden": 1.0,
+      "industry_interest": 0.7
+    },
+    "confidence": 0.88,
+    "schema_version": 1,
+    "url": "https://example.com/careers/demand-generation",
+    "source": "Example fixture \u2014 not a live job",
+    "description": "Synthetic posting for testing the discovery pipeline; not a real vacancy.",
+    "date_found": "2026-09-08",
+    "date_posted": null,
+    "location": "Remote, US",
+    "salary_basis": "annual_base_usd",
+    "requisition_id": null,
+    "search_tracks": [
+      "demand_generation"
+    ],
+    "strengths": [
+      "Relevant demand generation and marketing systems experience."
+    ],
+    "gaps": [
+      "Verify scope against the full posting."
+    ],
+    "unknowns": [
+      "Management scope is unspecified in this synthetic fixture."
+    ],
+    "conflicts": []
+  }
+]

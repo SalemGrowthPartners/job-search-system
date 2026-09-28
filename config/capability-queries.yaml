@@ -1,0 +1,7 @@
+schema_version: 1
+onboarding_status: not_started
+queries:
+  - id: starter_capability
+    track: adjacent
+    query: REPLACE WITH CAPABILITY-BASED QUERY DURING ONBOARDING
+    stretch: true

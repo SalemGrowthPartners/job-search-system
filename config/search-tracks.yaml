@@ -1,0 +1,14 @@
+schema_version: 1
+onboarding_status: not_started
+search_tracks:
+  demand_generation:
+    priority: 1
+    searches:
+      - REPLACE WITH PRIMARY TARGET ROLE 1 DURING ONBOARDING
+      - REPLACE WITH PRIMARY TARGET ROLE 2 DURING ONBOARDING
+      - REPLACE WITH PRIMARY TARGET ROLE 3 DURING ONBOARDING
+  adjacent:
+    priority: 2
+    searches:
+      - REPLACE WITH ADJACENT ROLE 1 DURING ONBOARDING
+      - REPLACE WITH ADJACENT ROLE 2 DURING ONBOARDING

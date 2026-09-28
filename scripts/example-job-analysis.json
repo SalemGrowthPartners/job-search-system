@@ -1,0 +1,27 @@
+{
+  "company": "ExampleCo",
+  "role": "Principal Demand Generation Strategist",
+  "salary_min": 165000,
+  "salary_max": 195000,
+  "mandatory_relocation": false,
+  "major_organic_social_ownership": false,
+  "domestic_trips_per_year": 2,
+  "qualification": {
+    "relevant_functional_experience": 0.95,
+    "demonstrated_skills": 0.90,
+    "comparable_scope": 0.90,
+    "industry_transferability": 0.80,
+    "tools_platforms": 0.85,
+    "demonstrated_results": 0.95
+  },
+  "career_fit": {
+    "work_content": 0.95,
+    "autonomy_player_coach_fit": 1.0,
+    "writing_marketing_intersection": 0.90,
+    "remote_location_fit": 1.0,
+    "compensation": 0.85,
+    "management_burden": 1.0,
+    "industry_interest": 0.70
+  },
+  "confidence": 0.88
+}

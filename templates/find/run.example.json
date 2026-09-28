@@ -1,0 +1,17 @@
+{
+  "run_id": "synthetic-example",
+  "mode": "standard",
+  "completed": false,
+  "started_at": "2026-09-08T12:00:00Z",
+  "finished_at": "2026-09-08T12:15:00Z",
+  "coverage": [
+    {
+      "source_id": "builtin",
+      "query_id": "demand_generation:0",
+      "result": "checked",
+      "minutes": 5,
+      "reason": "SYNTHETIC example. Replace with actual coverage; list all omissions."
+    }
+  ],
+  "company_checks": []
+}

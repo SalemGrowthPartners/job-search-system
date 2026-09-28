@@ -1,0 +1,7 @@
+schema_version: 1
+onboarding_status: not_started
+target_size:
+  minimum: 10
+  maximum: 60
+expansion_policy: Start with user-approved companies and add verified employers discovered during searches. Never invent career URLs or location eligibility.
+companies: []

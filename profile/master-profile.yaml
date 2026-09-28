@@ -1,0 +1,20 @@
+schema_version: 1
+onboarding_status: not_started
+identity:
+  name: null
+  preferred_name: null
+  location: null
+  contact:
+    email: null
+    phone: null
+    linkedin: null
+career_history: []
+education: []
+skills: []
+tools_platforms: []
+industries: []
+management_experience: []
+other_experience: []
+explicit_non_skills: []
+source_documents: []
+notes: []
