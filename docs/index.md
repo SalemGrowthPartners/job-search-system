@@ -7,7 +7,7 @@ title: Local Job Search System
 
 This downloadable workspace helps ChatGPT Work learn your verified career history, search across multiple job sources, evaluate opportunities, prepare tailored materials, and maintain a local application tracker.
 
-[Download the latest release](https://github.com/{{ site.github.repository_nwo }}/releases/latest){: .btn .btn-primary }
+[Go to the download page](https://github.com/{{ site.github.repository_nwo }}/releases/latest){: .btn .btn-primary }
 [View the project on GitHub](https://github.com/{{ site.github.repository_nwo }}){: .btn }
 
 ## Designed for professionals, not programmers
@@ -55,7 +55,7 @@ For the safest setup, download the latest Release ZIP and keep the completed wor
 
 You do not need a GitHub account or any knowledge of GitHub to use this system.
 
-1. Click **Download the latest release** near the top of this page.
+1. Click **Go to the download page** near the top of this page. This opens the latest release on GitHub; it does not begin the download yet.
 2. On the page that opens, find the **Assets** section.
 3. Click **Job.Search.System.Starter.zip**. This is the only file you need.
 4. Ignore **Source code (zip)** and **Source code (tar.gz)**. GitHub adds those automatically, and they are not the prepared starter package.
