@@ -53,11 +53,18 @@ For the safest setup, download the latest Release ZIP and keep the completed wor
 
 ## Getting started
 
-1. Download the latest Release ZIP.
-2. Unzip it and move the folder somewhere private.
-3. Open that folder in a fresh ChatGPT Work session.
-4. Send `/onboard`.
-5. Follow the short, staged conversation.
+You do not need a GitHub account or any knowledge of GitHub to use this system.
+
+1. Click **Download the latest release** near the top of this page.
+2. On the page that opens, find the **Assets** section.
+3. Click **Job.Search.System.Starter.zip**. This is the only file you need.
+4. Ignore **Source code (zip)** and **Source code (tar.gz)**. GitHub adds those automatically, and they are not the prepared starter package.
+5. Open your Downloads folder and double-click `Job.Search.System.Starter.zip` to unzip it.
+6. Move the unzipped folder somewhere private and easy to find, such as your Documents folder.
+7. Open that folder in a fresh ChatGPT Work session.
+8. Send `/onboard` and follow the short, staged conversation.
+
+Do not click **Fork**, **Code**, or **Clone**. Those GitHub features are for people who want to modify the software itself.
 
 See [`START-HERE.md`](../START-HERE.md) for the complete guide.
 
