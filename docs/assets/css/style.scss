@@ -1,0 +1,33 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.main-content .btn {
+  display: inline-block;
+  margin: 0.5rem 0.5rem 1.5rem 0;
+  padding: 0.75rem 1rem;
+  color: #ffffff !important;
+  background-color: #176b4d;
+  border: 1px solid #12533c;
+  border-radius: 0.35rem;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.main-content .btn:hover,
+.main-content .btn:focus {
+  color: #ffffff !important;
+  background-color: #0f5038;
+  text-decoration: underline;
+}
+
+.main-content .btn-primary {
+  background-color: #0b5cad;
+  border-color: #08457f;
+}
+
+.main-content .btn-primary:hover,
+.main-content .btn-primary:focus {
+  background-color: #08457f;
+}
